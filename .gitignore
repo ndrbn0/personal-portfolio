@@ -63,3 +63,6 @@ yarn.lock
 # Ignore any credentials or personal information
 config.js
 .secret
+
+# Ignore all images in the images directory
+images/
