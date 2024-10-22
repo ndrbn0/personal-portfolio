@@ -66,3 +66,9 @@ config.js
 
 # Ignore all images in the images directory
 images/
+
+# local env files
+.env*.local
+
+# vercel
+.vercel
