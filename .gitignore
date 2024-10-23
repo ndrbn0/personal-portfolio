@@ -64,9 +64,6 @@ yarn.lock
 config.js
 .secret
 
-# Ignore all images in the images directory
-images/
-
 # local env files
 .env*.local
 
