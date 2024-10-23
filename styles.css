@@ -48,13 +48,21 @@ nav ul li a {
   text-decoration: none;
   font-size: 18px;
   position: relative;
+  text-shadow: 0 0 2px #fff, 0 0 4px #fff;
+  transition: color 0.5s, text-shadow 0.5s;
+}
+
+nav ul li a:hover {
+  color: #1971c2;
+  text-shadow: 0 0 5px #1971c2, 0 0 10px #1971c2, 0 0 20px #1971c2,
+    0 0 40px #1971c2, 0 0 60px #1971c2, 0 0 100px #1971c2;
 }
 
 nav ul li a::after {
   content: "";
   width: 0;
-  height: 3px;
-  background: #1971c2;
+  height: 1px;
+  background: #fff;
   position: absolute;
   left: 0;
   bottom: -6px;
@@ -395,7 +403,7 @@ nav .fa-solid {
   }
 
   nav ul {
-    background: #868e96;
+    background: #3a3c3e;
     position: fixed;
     top: 0;
     right: -200px;
@@ -404,6 +412,7 @@ nav .fa-solid {
     padding-top: 50px;
     z-index: 2;
     transition: right 0.5s;
+    font-weight: 100;
   }
 
   nav ul li {
