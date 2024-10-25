@@ -251,7 +251,7 @@ nav ul li a:hover::after {
   flex-direction: column;
   padding: 0 40px;
   text-align: center;
-  font-size: 18px;
+  font-size: 16px;
   transition: height 0.5s;
 }
 
@@ -429,6 +429,10 @@ nav .fa-solid {
 
   .sub-title {
     font-size: 40px;
+  }
+
+  .layer {
+    font-size: 13px;
   }
 
   .about-col-1,
