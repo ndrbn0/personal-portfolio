@@ -458,7 +458,7 @@ nav .fa-solid {
 
 @media only screen and (max-width: 600px) {
   #header {
-    background-image: url();
+    background-image: url(); /* Add mobile-specific background image if needed */
   }
 
   .header-text {
@@ -534,10 +534,25 @@ nav .fa-solid {
   .copyright {
     font-size: 14px;
   }
+
+  /* Popup Adjustments */
+  .popup-content {
+    width: 90%; /* Make it larger on mobile */
+    max-width: 90%; /* Adjust max-width for mobile */
+  }
 }
 
-#msg {
-  color: #1971c2;
-  margin-top: -40px;
-  display: block;
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  .popup-content {
+    width: 70%; /* Wider on tablets */
+    max-width: 800px; /* Allow for a larger max-width */
+  }
+}
+
+/* Media Query for Mobile */
+@media only screen and (max-width: 600px) {
+  .popup-content {
+    width: 90%; /* Make it larger on mobile */
+    max-width: 90%; /* Adjust max-width for mobile */
+  }
 }
