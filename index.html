@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -11,13 +11,13 @@
       crossorigin="anonymous"
     ></script>
     <script src="index.js" defer></script>
-    <!-- Link to the new JavaScript file -->
   </head>
   <body>
+    <!------ Header ------>
     <div id="header">
       <div class="container">
         <nav>
-          <img src="images/Web Development.gif" class="logo" />
+          <img src="images/Web Development.gif" class="logo" alt="Logo" />
           <ul id="sidemenu">
             <li><a href="#header">Home</a></li>
             <li><a href="#about">About</a></li>
@@ -30,25 +30,30 @@
         </nav>
         <div class="header-text">
           <p>Frontend Software Developer</p>
-          <h1>
-            Hi, I'm <span>Andrea</span><br />
-            Bruni from Italy
-          </h1>
+          <h1>Hi, I'm <span>Andrea</span><br />Bruni from Italy</h1>
         </div>
       </div>
     </div>
-    <!-------about----------->
 
+    <!------- About Section -------->
     <div id="about">
       <div class="container">
         <div class="row">
           <div class="about-col-1">
-            <img src="images/IMG_1180.png" />
+            <img src="images/IMG_1180.png" alt="Andrea Bruni" />
           </div>
           <div class="about-col-2">
             <h1 class="sub-title">About Me</h1>
             <p>
-              A curious mind with a deep passion for exploring new ideas, always seeking opportunities to learn and grow. Balancing creativity with logic to find unique solutions to complex problems. Whether diving into a project or engaging in deep conversations, brings an insightful and thoughtful perspective to every situation, often making connections others might miss. With a love for both technology and the arts, driven by the belief that the best ideas come from blending disciplines. Pushing boundaries to create something meaningful, leaving a lasting impact wherever the path leads.
+              A curious mind with a deep passion for exploring new ideas, always
+              seeking opportunities to learn and grow. Balancing creativity with
+              logic to find unique solutions to complex problems. Whether diving
+              into a project or engaging in deep conversations, I bring an
+              insightful perspective to every situation, often making
+              connections others might miss. With a love for both technology and
+              the arts, I am driven by the belief that the best ideas come from
+              blending disciplines, pushing boundaries to create something
+              meaningful.
             </p>
             <div class="tab-titles">
               <p class="tab-links active-link" onclick="opentab('skills')">
@@ -61,8 +66,8 @@
             </div>
             <div class="tab-contents active-tab" id="skills">
               <ul>
-                <li><span>UX UI</span><br />Designing Web/App Interfaces</li>
-                <li><span>Web Development</span><br />Web app Development</li>
+                <li><span>UX/UI</span><br />Designing Web/App Interfaces</li>
+                <li><span>Web Development</span><br />Web App Development</li>
                 <li>
                   <span>App Development</span><br />Building Android/iOS apps
                 </li>
@@ -70,13 +75,15 @@
             </div>
             <div class="tab-contents" id="experience">
               <ul>
-                <li><span>Web Development Bootcamp</span><br />Own Web App Development</li>
-                <li></li>
+                <li>
+                  <span>Web Development Bootcamp</span><br />Own Web App
+                  Development
+                </li>
               </ul>
             </div>
             <div class="tab-contents" id="education">
               <ul>
-                <li><span>2024</span><br />SPICED Accademy Bootcamp</li>
+                <li><span>2024</span><br />SPICED Academy Bootcamp</li>
                 <li><span>2024</span><br />FreeCode Camp HTML/CSS/JS</li>
                 <li>
                   <span>2016</span><br />Responsive HTML/CSS Self-learning
@@ -91,8 +98,7 @@
       </div>
     </div>
 
-    <!----services ------->
-
+    <!------- Services Section -------->
     <div id="services">
       <div class="container">
         <h1 class="sub-title">My Services</h1>
@@ -101,10 +107,10 @@
             <i class="fa-solid fa-code"></i>
             <h2>Web Developer</h2>
             <p>
-              A web developer service creates, designs, and maintains websites,
-              ensuring functionality.
+              A web developer creates, designs, and maintains websites, ensuring
+              functionality.
             </p>
-            <a href="/learn-more-section/web-development.html">Learn More</a>
+            <a href="#" class="learn-more-link-web-development">Learn More</a>
           </div>
           <div>
             <i class="fa-solid fa-crop"></i>
@@ -113,7 +119,7 @@
               A UI/UX service focuses on enhancing user interaction with digital
               interfaces through design.
             </p>
-            <a href="learn-more-section/uxui.html">Learn More</a>
+            <a href="#" class="learn-more-link-ux-ui">Learn More</a>
           </div>
           <div>
             <i class="fa-brands fa-app-store"></i>
@@ -122,19 +128,19 @@
               App design services involve creating engaging, user-friendly
               mobile apps.
             </p>
-            <a href="/learn-more-section/app-design.html">Learn More</a>
+            <a href="#" class="learn-more-link-app-design">Learn More</a>
           </div>
         </div>
       </div>
     </div>
-    <!------------portfolio ------------>
 
+    <!------- Portfolio Section -------->
     <div id="portfolio">
       <div class="container">
         <h1 class="sub-title">My Work</h1>
         <div class="work-list">
           <div class="work">
-            <img src="images/Flavion Logo.gif" />
+            <img src="images/Flavion Logo.gif" alt="Flavion App" />
             <div class="layer">
               <h3>Flavion App</h3>
               <p>
@@ -147,24 +153,20 @@
             </div>
           </div>
           <div class="work">
-            <img src="images/Art Gallery.gif" />
+            <img src="images/Art Gallery.gif" alt="Art Gallery App" />
             <div class="layer">
               <h3>Art Gallery App</h3>
-              <p>
-                The app connects you to the talented people around the world
-              </p>
+              <p>The app connects you to talented people around the world.</p>
               <a href="https://art-gallery-ndbn.vercel.app/" target="_blank"
                 ><i class="fa-solid fa-link"></i
               ></a>
             </div>
           </div>
           <div class="work">
-            <img src="images/Wormhole T.gif" />
+            <img src="images/Wormhole T.gif" alt="Wormhole Space" />
             <div class="layer">
-            <h3>Wormhole Space</h3>
-              <p>
-                The space tourismus app
-              </p>
+              <h3>Wormhole Space</h3>
+              <p>The space tourism app.</p>
               <a href="#"><i class="fa-solid fa-link"></i></a>
             </div>
           </div>
@@ -173,8 +175,7 @@
       </div>
     </div>
 
-    <!------ contact ------>
-
+    <!------- Contact Section -------->
     <div id="contact">
       <div class="container">
         <div class="row">
@@ -183,10 +184,20 @@
             <p><i class="fa-solid fa-paper-plane"></i> andrea.brn8@gmail.com</p>
             <p><i class="fa-solid fa-phone"></i> +49 (0)15778618144</p>
             <div class="social-icons">
-              <a href="https://www.linkedin.com/in/andrea-bruni-06240213b/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-              <a href="https://github.com/ndrbn0" target="_blank"><i class="fa-brands fa-github"></i></a>
-              <a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-              <a href="#" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+              <a
+                href="https://www.linkedin.com/in/andrea-bruni-06240213b/"
+                target="_blank"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+              <a href="https://github.com/ndrbn0" target="_blank"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+              <a href="#" target="_blank"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a href="#" target="_blank"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
             </div>
             <a href="images/Bruni, Andrea CV-Eng.pdf" download class="btn btn2"
               >Download CV</a
@@ -210,13 +221,71 @@
             </form>
             <span id="msg"></span>
           </div>
-          </div>
         </div>
       </div>
-      <div class="copyright">
+    </div>
+
+    <!------- Copyright -------->
+    <div class="copyright">
+      <p>Copyright © Andrea Bruni.</p>
+    </div>
+
+    <!------- Modal WebDev -------->
+    <div id="myModalWebDeveloper" class="popup">
+      <div class="popup-content">
+        <span class="close">&times;</span>
+        <h1 class="sub-title">Web Development Service</h1>
         <p>
-          Copyright © Andrea. Made with <i class="fa-solid fa-heart"></i> by
-          Andrea Bruni.
+          Our Web Developer service specializes in creating, designing, and
+          maintaining websites that ensure optimal functionality and user
+          experience. We focus on building responsive and engaging websites that
+          cater to the unique needs of our clients.
+        </p>
+        <p>
+          By integrating modern technologies and best practices, we deliver
+          websites that not only look great but also perform seamlessly across
+          all devices, enhancing user interaction and satisfaction.
+        </p>
+      </div>
+    </div>
+
+    <!------- Modal UX/UI-------->
+
+    <div id="myModalUIUX" class="popup">
+      <div class="popup-content">
+        <span class="close">&times;</span>
+        <h1 class="sub-title">UI/UX Service</h1>
+        <p>
+          A UI/UX service focuses on enhancing user interaction with digital
+          interfaces through design. This includes creating intuitive, visually
+          appealing, and user-friendly interfaces that improve overall user
+          experience and satisfaction with digital products.
+        </p>
+        <p>
+          By addressing elements like navigation, accessibility, responsiveness,
+          and visual hierarchy, UI/UX design ensures that each interaction feels
+          smooth, engaging, and enjoyable.
+        </p>
+      </div>
+    </div>
+
+    <!------- Modal App Design-------->
+
+    <div id="myModalAppDesign" class="popup">
+      <div class="popup-content">
+        <span class="close">&times;</span>
+        <h1 class="sub-title">App Design Service</h1>
+        <p>
+          Our App Design services focus on creating engaging, user-friendly
+          mobile applications that provide seamless user experiences. We
+          prioritize intuitive navigation and visually appealing interfaces to
+          captivate users from the moment they open the app.
+        </p>
+        <p>
+          By incorporating user feedback and best design practices, we ensure
+          that every app we develop is tailored to meet the specific needs of
+          its target audience, leading to increased user satisfaction and
+          engagement.
         </p>
       </div>
     </div>
