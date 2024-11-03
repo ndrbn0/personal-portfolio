@@ -458,11 +458,11 @@ nav .fa-solid {
 
 @media only screen and (max-width: 600px) {
   #header {
-    background-image: url(); /* Add mobile-specific background image if needed */
+    background-image: url();
   }
 
   .header-text {
-    margin-top: 50%; /* Reduced margin for smaller screens */
+    margin-top: 50%;
     font-size: 16px;
   }
 
@@ -537,94 +537,94 @@ nav .fa-solid {
 
   /* Popup Adjustments */
   .popup-content {
-    width: 90%; /* Make it larger on mobile */
-    max-width: 90%; /* Adjust max-width for mobile */
+    width: 90%;
+    max-width: 90%;
   }
 }
 
 @media only screen and (max-width: 768px) {
   #header {
-    background-image: url(); /* Add tablet-specific background image if needed */
+    background-image: url();
   }
 
   .header-text {
-    margin-top: 40%; /* Adjust margin for tablet screens */
-    font-size: 18px; /* Slightly larger font for tablets */
+    margin-top: 40%;
+    font-size: 18px;
   }
 
   .header-text h1 {
-    font-size: 36px; /* Increase h1 font size for tablets */
+    font-size: 36px;
   }
 
   nav .fa-solid {
     display: block;
-    font-size: 30px; /* Increase icon size for tablets */
+    font-size: 30px;
   }
 
   nav ul {
     background: #3a3c3e;
     position: fixed;
     top: 0;
-    right: -150px; /* Slightly adjust sidebar position for tablets */
-    width: 150px; /* Adjust width for tablet navigation */
+    right: -150px;
+    width: 150px;
     height: 100vh;
     padding-top: 50px;
     z-index: 2;
     transition: right 0.5s;
-    font-weight: 300; /* Slightly increase font weight */
+    font-weight: 300;
   }
 
   nav ul li {
     display: block;
-    margin: 20px; /* Reduce margin for tablet items */
+    margin: 20px;
   }
 
   nav ul .fa-solid {
     position: absolute;
-    top: 20px; /* Adjust icon position for tablet */
-    left: 20px; /* Adjust icon position for tablet */
+    top: 20px;
+    left: 20px;
     cursor: pointer;
   }
 
   .sub-title {
-    font-size: 34px; /* Adjust subtitle size for tablets */
+    font-size: 34px;
   }
 
   .layer {
-    font-size: 14px; /* Slightly larger layer text for tablets */
+    font-size: 14px;
   }
 
   .about-col-1,
   .about-col-2 {
-    flex-basis: 48%; /* Use two columns for about sections */
+    flex-basis: 48%;
   }
 
   .about-col-1 {
-    margin-bottom: 20px; /* Adjust margin for about sections */
+    margin-bottom: 20px;
   }
 
   .about-col-2 {
-    font-size: 16px; /* Increase font size for about column 2 */
+    font-size: 16px;
   }
 
   .tab-links {
-    font-size: 18px; /* Increase tab link size for tablets */
-    margin-right: 15px; /* Adjust margin for tab links */
+    font-size: 18px;
+    margin-right: 15px;
   }
 
   .contact-left,
   .contact-right {
-    flex-basis: 48%; /* Use two columns for contact sections */
+    flex-basis: 48%;
   }
 
   .copyright {
-    font-size: 16px; /* Slightly larger copyright text */
+    font-size: 16px;
   }
 }
 
 @media only screen and (min-width: 601px) and (max-width: 1024px) {
   .popup-content {
-    width: 70%; /* Wider on tablets */
-    max-width: 800px; /* Allow for a larger max-width */
+    width: 70%;
+    max-width: 800px;
   }
 }
