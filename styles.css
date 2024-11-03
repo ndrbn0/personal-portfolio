@@ -628,11 +628,3 @@ nav .fa-solid {
     max-width: 800px; /* Allow for a larger max-width */
   }
 }
-
-/* Media Query for Mobile */
-@media only screen and (max-width: 600px) {
-  .popup-content {
-    width: 90%; /* Make it larger on mobile */
-    max-width: 90%; /* Adjust max-width for mobile */
-  }
-}
