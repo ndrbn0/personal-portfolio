@@ -542,6 +542,86 @@ nav .fa-solid {
   }
 }
 
+@media only screen and (max-width: 768px) {
+  #header {
+    background-image: url(); /* Add tablet-specific background image if needed */
+  }
+
+  .header-text {
+    margin-top: 40%; /* Adjust margin for tablet screens */
+    font-size: 18px; /* Slightly larger font for tablets */
+  }
+
+  .header-text h1 {
+    font-size: 36px; /* Increase h1 font size for tablets */
+  }
+
+  nav .fa-solid {
+    display: block;
+    font-size: 30px; /* Increase icon size for tablets */
+  }
+
+  nav ul {
+    background: #3a3c3e;
+    position: fixed;
+    top: 0;
+    right: -150px; /* Slightly adjust sidebar position for tablets */
+    width: 150px; /* Adjust width for tablet navigation */
+    height: 100vh;
+    padding-top: 50px;
+    z-index: 2;
+    transition: right 0.5s;
+    font-weight: 300; /* Slightly increase font weight */
+  }
+
+  nav ul li {
+    display: block;
+    margin: 20px; /* Reduce margin for tablet items */
+  }
+
+  nav ul .fa-solid {
+    position: absolute;
+    top: 20px; /* Adjust icon position for tablet */
+    left: 20px; /* Adjust icon position for tablet */
+    cursor: pointer;
+  }
+
+  .sub-title {
+    font-size: 34px; /* Adjust subtitle size for tablets */
+  }
+
+  .layer {
+    font-size: 14px; /* Slightly larger layer text for tablets */
+  }
+
+  .about-col-1,
+  .about-col-2 {
+    flex-basis: 48%; /* Use two columns for about sections */
+  }
+
+  .about-col-1 {
+    margin-bottom: 20px; /* Adjust margin for about sections */
+  }
+
+  .about-col-2 {
+    font-size: 16px; /* Increase font size for about column 2 */
+  }
+
+  .tab-links {
+    font-size: 18px; /* Increase tab link size for tablets */
+    margin-right: 15px; /* Adjust margin for tab links */
+  }
+
+  .contact-left,
+  .contact-right {
+    flex-basis: 48%; /* Use two columns for contact sections */
+  }
+
+  .copyright {
+    font-size: 16px; /* Slightly larger copyright text */
+  }
+}
+
 @media only screen and (min-width: 601px) and (max-width: 1024px) {
   .popup-content {
     width: 70%; /* Wider on tablets */
